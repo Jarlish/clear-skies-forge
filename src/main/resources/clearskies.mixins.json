@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "package": "jarl.clearskies.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "clearskies.refmap.json",
+  "client": [
+    "MixinBackgroundRenderer"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "minVersion": "0.8"
+}

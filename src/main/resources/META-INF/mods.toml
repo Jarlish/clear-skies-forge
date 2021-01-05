@@ -1,0 +1,26 @@
+modLoader="javafml" #mandatory
+loaderVersion="[35,)" #mandatory This is typically bumped every Minecraft version by Forge. See our download page for lists of versions.
+license="All rights reserved"
+
+[[mods]] #mandatory
+	modId="clearskies" #mandatory
+	version="1.0" #mandatory
+	displayName="Clear Skies Forge Port" #mandatory
+	logoFile="clearskies.png" #optional
+	credits="Thanks to grondag for creating the original Fabric mod Clear Skies" #optional
+	authors="Jarl" #optional
+	description='''Forge port of grondag's Clear Skies'''
+
+[[dependencies.clearskies]] #optional
+    modId="forge" #mandatory
+    mandatory=true #mandatory
+    versionRange="[35,)" #mandatory
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.clearskies]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.4,1.17)"
+    ordering="NONE"
+    side="BOTH"
